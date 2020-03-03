@@ -1,4 +1,5 @@
 $(document).ready(function(){
-  $("p").click(function(){
+  $("li").click(function(){
+    $(this).css("color", "mediumvioletred");
   })
 })
