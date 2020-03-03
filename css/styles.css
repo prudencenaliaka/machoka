@@ -16,3 +16,6 @@ ul li{
   display: inline-block;
   text-decoration: underline;
 }
+body {
+  background-color: black;
+}
