@@ -1,12 +1,18 @@
 header{
-  background-color: mediumblue;
+  background-color: indigo;
 }
 .navbar {
 color: white;
 float: right;
 right: 150px;
+top: 25px;
+
 }
 .logo {
   width: 150px;
   height: 100px;
+}
+ul li{
+  display: inline-block;
+  text-decoration: underline;
 }
