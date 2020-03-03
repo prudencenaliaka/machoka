@@ -1,0 +1,12 @@
+header{
+  background-color: mediumblue;
+}
+.navbar {
+color: white;
+float: right;
+right: 150px;
+}
+.logo {
+  width: 150px;
+  height: 100px;
+}
