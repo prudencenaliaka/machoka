@@ -1,12 +1,17 @@
 header{
   background-color:darkred;
 }
+body {
+        width: 100vw;
+        height: 100vh;
+}
 footer{
     background-color:darkred;
     color: white;
     position: absolute;
     width: 100%;
     bottom: 0px;
+    height: auto;
 }
 h2 {
   text-align: center;
