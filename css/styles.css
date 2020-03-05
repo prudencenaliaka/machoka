@@ -8,10 +8,9 @@ body {
 footer{
     background-color:darkred;
     color: white;
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0px;
-    height: auto;
 }
 h2 {
   text-align: center;
