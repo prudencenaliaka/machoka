@@ -1,5 +1,32 @@
 header{
-  background-color: indigo;
+  background-color:darkred;
+}
+.next2 {
+  left:400px;
+  position: relative;
+}
+#BACK {
+  color: white;
+  background-color: saddlebrown;
+}
+.next1 {
+  left:500px;
+  position: relative;
+}
+#NEXT {
+  color: white;
+  background-color: darkred;
+}
+.column{
+  float: left;
+  column-gap: 40px;
+  left:500px;
+}
+p{
+  color: white;
+}
+.hed1{
+  color: white;
 }
 .navbar {
 color: white;
@@ -15,7 +42,35 @@ top: 25px;
 ul li{
   display: inline-block;
   text-decoration: underline;
+  margin-right: 50px;
 }
 body {
   background-color: black;
+}
+#sp1 {
+  color: olive;
+}
+#sp2 {
+  color: royalblue;
+}
+#sp3 {
+  color: orangered;
+}
+#sp4 {
+  color: aqua;
+}
+.jumbotron {
+  background-color: indigo;
+  color: white;
+}
+.container{
+  color: white;
+}
+.sec1 {
+  background-image: url("../images/images.jpeg");
+  opacity: 0.6;
+}
+.sec2{
+background-image: url("../images/photo-1459749411175-04bf5292ceea.jpeg");
+/*background-color: black;*/
 }
