@@ -1,6 +1,16 @@
 header{
   background-color:darkred;
 }
+footer{
+    background-color:darkred;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+h2 {
+  text-align: center;
+}
 .next2 {
   left:400px;
   position: relative;
