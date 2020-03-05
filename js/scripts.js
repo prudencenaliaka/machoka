@@ -1,5 +1,19 @@
 $(document).ready(function(){
-  $("li").click(function(){
-    $(this).css("color", "mediumvioletred");
+  $(".sec2").hide();
+  $("#NEXT").click(function(){
+    $(".sec1").fadeOut(2000),
+    $(".sec2").fadeIn(2000);
+    $("header").css("background-color","saddlebrown");
   })
+  $("#BACK").click(function(){
+    $(".sec2").fadeOut(2000),
+    $(".sec1").fadeIn(2000),
+    $("header").show();
+    $("header").css("background-color","darkred");
+  })
+$("#li1").click(function(){
+  $(".sec1").hide(),
+  $("header").hide(),
+  $(".sec2").show();
+})
 })
