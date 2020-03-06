@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  $("#li1").css("color","blue");
   $(".sec2").hide();
   $("#NEXT").click(function(){
     $(".sec1").fadeOut(2000),
