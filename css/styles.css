@@ -15,6 +15,9 @@ footer{
     display: block;
     text-align: center;
 }
+#li1{
+  color: blue;
+}
 h2 {
   text-align: center;
 }
