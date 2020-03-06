@@ -4,8 +4,8 @@ $(document).ready(function(){
   $("#NEXT").click(function(){
     $(".sec1").fadeOut(2000),
     $(".sec2").fadeIn(2000),
-    $("footer").hide(),
     $("header").css("background-color","saddlebrown");
+    $("footer").css("background-color","saddlebrown")
   })
   $("#BACK").click(function(){
     $(".sec2").fadeOut(2000),
@@ -13,6 +13,7 @@ $(document).ready(function(){
     $("header").show(),
     $("footer").show(),
     $("header").css("background-color","darkred");
+    $("footer").css("background-color","darkred");
   })
 $("#li1").click(function(){
   $(".sec1").hide(),
