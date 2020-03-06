@@ -1,23 +1,26 @@
 header{
   background-color:darkred;
 }
-body {
-        width: 100vw;
+/*body {
+        width: 100vh;
         height: 100vh;
-}
+}*/
 footer{
     background-color:darkred;
     color: white;
-    position: fixed;
+    position: static;
     width: 100%;
+    height: 70px;
     bottom: 0px;
+    display: block;
+    text-align: center;
 }
 h2 {
   text-align: center;
 }
 .next2 {
   left:400px;
-  position: relative;
+
 }
 #BACK {
   color: white;
@@ -25,7 +28,7 @@ h2 {
 }
 .next1 {
   left:500px;
-  position: relative;
+
 }
 #NEXT {
   color: white;
